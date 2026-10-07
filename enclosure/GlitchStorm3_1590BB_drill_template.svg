@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="182.5mm" height="177mm" viewBox="-71.75 -88 182.5 177" font-family="Helvetica">
+<rect x="-71.75" y="-88" width="182.5" height="177" fill="white"/>
+<rect x="-59.75" y="-47" width="119.5" height="94" rx="5" fill="none" stroke="black" stroke-width="0.3"/>
+<text x="-59.75" y="-82" font-size="3">GlitchStorm v3 — 1590BB face (side A), outside view, landscape, 1:1. Origin = centre.</text>
+<line x1="-3" y1="0" x2="3" y2="0" stroke="#999" stroke-width="0.15"/><line x1="0" y1="-3" x2="0" y2="3" stroke="#999" stroke-width="0.15"/>
+<circle cx="-30" cy="-8" r="3.75" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-31" y1="-8" x2="-29" y2="-8" stroke="red" stroke-width="0.15"/><line x1="-30" y1="-9" x2="-30" y2="-7" stroke="red" stroke-width="0.15"/>
+<text x="-30" y="-1.65" font-size="2" text-anchor="middle">POT 1 Ø7.5</text>
+<circle cx="0" cy="-8" r="3.75" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-1" y1="-8" x2="1" y2="-8" stroke="red" stroke-width="0.15"/><line x1="0" y1="-9" x2="0" y2="-7" stroke="red" stroke-width="0.15"/>
+<text x="0" y="-1.65" font-size="2" text-anchor="middle">POT 2 Ø7.5</text>
+<circle cx="30" cy="-8" r="3.75" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="29" y1="-8" x2="31" y2="-8" stroke="red" stroke-width="0.15"/><line x1="30" y1="-9" x2="30" y2="-7" stroke="red" stroke-width="0.15"/>
+<text x="30" y="-1.65" font-size="2" text-anchor="middle">POT 3 Ø7.5</text>
+<circle cx="-30" cy="22" r="3.75" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-31" y1="22" x2="-29" y2="22" stroke="red" stroke-width="0.15"/><line x1="-30" y1="21" x2="-30" y2="23" stroke="red" stroke-width="0.15"/>
+<text x="-30" y="28.35" font-size="2" text-anchor="middle">RATE Ø7.5</text>
+<circle cx="30" cy="22" r="3.75" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="29" y1="22" x2="31" y2="22" stroke="red" stroke-width="0.15"/><line x1="30" y1="21" x2="30" y2="23" stroke="red" stroke-width="0.15"/>
+<text x="30" y="28.35" font-size="2" text-anchor="middle">VOLUME Ø7.5</text>
+<circle cx="-15" cy="22" r="5" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-16" y1="22" x2="-14" y2="22" stroke="red" stroke-width="0.15"/><line x1="-15" y1="21" x2="-15" y2="23" stroke="red" stroke-width="0.15"/>
+<text x="-15" y="29.6" font-size="2" text-anchor="middle">MODE Ø10</text>
+<circle cx="0" cy="22" r="5" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-1" y1="22" x2="1" y2="22" stroke="red" stroke-width="0.15"/><line x1="0" y1="21" x2="0" y2="23" stroke="red" stroke-width="0.15"/>
+<text x="0" y="29.6" font-size="2" text-anchor="middle">BTN 1 Ø10</text>
+<circle cx="15" cy="22" r="5" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="14" y1="22" x2="16" y2="22" stroke="red" stroke-width="0.15"/><line x1="15" y1="21" x2="15" y2="23" stroke="red" stroke-width="0.15"/>
+<text x="15" y="29.6" font-size="2" text-anchor="middle">BTN 2 Ø10</text>
+<circle cx="-12" cy="8" r="1.6" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-13" y1="8" x2="-11" y2="8" stroke="red" stroke-width="0.15"/><line x1="-12" y1="7" x2="-12" y2="9" stroke="red" stroke-width="0.15"/>
+<text x="-12" y="12.2" font-size="2" text-anchor="middle">D1</text>
+<circle cx="-4" cy="8" r="1.6" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="-5" y1="8" x2="-3" y2="8" stroke="red" stroke-width="0.15"/><line x1="-4" y1="7" x2="-4" y2="9" stroke="red" stroke-width="0.15"/>
+<text x="-4" y="12.2" font-size="2" text-anchor="middle">D2</text>
+<circle cx="4" cy="8" r="1.6" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="3" y1="8" x2="5" y2="8" stroke="red" stroke-width="0.15"/><line x1="4" y1="7" x2="4" y2="9" stroke="red" stroke-width="0.15"/>
+<text x="4" y="12.2" font-size="2" text-anchor="middle">D3</text>
+<circle cx="12" cy="8" r="1.6" fill="none" stroke="black" stroke-width="0.25"/>
+<line x1="11" y1="8" x2="13" y2="8" stroke="red" stroke-width="0.15"/><line x1="12" y1="7" x2="12" y2="9" stroke="red" stroke-width="0.15"/>
+<text x="12" y="12.2" font-size="2" text-anchor="middle">D4</text>
+<text x="0" y="14.5" font-size="2" text-anchor="middle">LEDs Ø3.2 (D1–D4 left to right)</text>
+<rect x="-59.75" y="-76" width="119.5" height="29" rx="3" fill="none" stroke="black" stroke-width="0.3" stroke-dasharray="1,0.6"/>
+<text x="-57.75" y="-72.5" font-size="2.5">Jack wall (unfolded): ESTIMATED heights, test-fit first</text>
+<circle cx="-7" cy="-64.7" r="3" fill="none" stroke="black" stroke-width="0.25" stroke-dasharray="0.8,0.5"/>
+<line x1="-8" y1="-64.7" x2="-6" y2="-64.7" stroke="red" stroke-width="0.15"/><line x1="-7" y1="-65.7" x2="-7" y2="-63.7" stroke="red" stroke-width="0.15"/>
+<text x="-7" y="-59.1" font-size="2" text-anchor="middle">PHONES Ø6</text>
+<circle cx="-21" cy="-64.7" r="3" fill="none" stroke="black" stroke-width="0.25" stroke-dasharray="0.8,0.5"/>
+<line x1="-22" y1="-64.7" x2="-20" y2="-64.7" stroke="red" stroke-width="0.15"/><line x1="-21" y1="-65.7" x2="-21" y2="-63.7" stroke="red" stroke-width="0.15"/>
+<text x="-21" y="-59.1" font-size="2" text-anchor="middle">LINE OUT Ø6</text>
+<circle cx="-35.25" cy="-68.4" r="4" fill="none" stroke="black" stroke-width="0.25" stroke-dasharray="0.8,0.5"/>
+<line x1="-36.25" y1="-68.4" x2="-34.25" y2="-68.4" stroke="red" stroke-width="0.15"/><line x1="-35.25" y1="-69.4" x2="-35.25" y2="-67.4" stroke="red" stroke-width="0.15"/>
+<text x="-35.25" y="-61.8" font-size="2" text-anchor="middle">DC 9V Ø8</text>
+<rect x="59.75" y="-47" width="29" height="94" rx="3" fill="none" stroke="black" stroke-width="0.3" stroke-dasharray="1,0.6"/>
+<rect x="82.75" y="-32" width="8" height="12" fill="none" stroke="black" stroke-width="0.25" stroke-dasharray="0.8,0.5"/>
+<text x="81.25" y="-18" font-size="2" transform="rotate(90 81.25 -18)">USB slot ~8×12 (estimate)</text>
+<text x="62.75" y="-43" font-size="2.5" transform="rotate(90 62.75 -43)">USB end (unfolded): ESTIMATE, test-fit first</text>
+<rect x="-59.75" y="57" width="50" height="10" fill="none" stroke="black" stroke-width="0.2"/><text x="-58.75" y="63" font-size="2.5">Check: this box = 50 × 10 mm when printed</text>
+</svg>
