@@ -1,0 +1,11 @@
+Designator,Value,Part,Qty,Note
+A1,Arduino Nano,Nano (ATmega328P) on 2x 1x15 female headers,1,"Inside (front), USB at the edge. Socket it; don't solder the Nano"
+RV1 RV2 RV3 RV4,B10k,Alpha RD901F 9 mm vertical,4,"POT1 / POT2 / POT3 / RATE - back side; solder flush; 7 mm panel holes"
+RV5,A10k,Alpha RD901F 9 mm vertical,1,"VOLUME - back side; solder flush"
+SW1 SW2 SW3,TSL-A064,Tayda A-8796 round 12 mm push button (white 9 mm cap),3,"Back side: SW3 MODE (D2), SW1 BTN 1 (D3), SW2 BTN 2 (D4). Any orientation works. ~9.5-10 mm panel holes"
+D1 D2 D3 D4,LED,3 mm LED,4,"Back side, on their legs with the tops at the panel (binary display, D1 = outside-left). Square pad = cathode. 3.2 mm holes"
+J1,PHONES,PJ-320A 3.5 mm jack (Tayda A-4863),1,"Inside (front), opening at the back edge. Before soldering, check with a meter: plug tip = pin 4, plug sleeve = pins 2 and 5"
+J2,LINE OUT,PJ-320A 3.5 mm jack (Tayda A-4863),1,"Inside (front), opening at the back edge. Same meter check as J1"
+J3,DC 9V,2.1 mm DC jack PCB mount (Tayda A-4118),1,"Centre negative. Check with a meter: the sleeve blade must be the one in line with the centre pin"
+C16,220u,220 uF 10 V+ electrolytic radial 6.3 mm 2.5 mm pitch,1,"Headphone coupling; observe polarity"
+H1-H4,M3,mounting holes,4,"Not a part"

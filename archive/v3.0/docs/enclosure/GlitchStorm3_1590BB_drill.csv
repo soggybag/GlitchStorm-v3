@@ -1,0 +1,20 @@
+Side,Label,X landscape (mm),Y landscape (mm),X Tayda portrait (mm),Y Tayda portrait (mm),"Diameter (mm, raw aluminium)"
+A,POT 1,-30.00,8.00,8.00,30.00,7.5
+A,POT 2,0.00,8.00,8.00,0.00,7.5
+A,POT 3,30.00,8.00,8.00,-30.00,7.5
+A,RATE,-30.00,-22.00,-22.00,30.00,7.5
+A,VOLUME,30.00,-22.00,-22.00,-30.00,7.5
+A,MODE,-15.00,-22.00,-22.00,15.00,10.0
+A,BTN 1,0.00,-22.00,-22.00,0.00,10.0
+A,BTN 2,15.00,-22.00,-22.00,-15.00,10.0
+A,LED D1,-12.00,-8.00,-8.00,12.00,3.2
+A,LED D2,-4.00,-8.00,-8.00,4.00,3.2
+A,LED D3,4.00,-8.00,-8.00,-4.00,3.2
+A,LED D4,12.00,-8.00,-8.00,-12.00,3.2
+
+"Side walls: ESTIMATES, drill by hand after a test fit (see README). Along = X on the face; Depth = from the face's outside surface"
+Wall,Label,Along (mm),Depth (mm),Diameter (mm)
+jack wall,PHONES,-7.00,17.7,6.0
+jack wall,LINE OUT,-21.00,17.7,6.0
+jack wall,DC 9V,-35.25,21.4,8.0
+USB end,Nano USB slot ~12 x 8 (file by hand),26.00,27.0,slot
