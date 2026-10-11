@@ -5,6 +5,25 @@
 
 Generated 2026-10-04 from the KiCad board (v3, PJ-320A jacks, pots raised 4 mm on their tabs).
 
+## Mill marking file (Bantam Tools Othermill)
+
+**`GlitchStorm3_1590BB_mill_marks.svg`:** for engraving hole marks on the face, then drilling on the drill press.
+- **Page:** 119.5 × 94 mm = the 1590BB face (landscape), **outside view**.
+- **Contents:** one circle per hole at its finished diameter (outline to inscribe), plus a **1 mm circle at each centre** (the drill point). Stroke only, no fill, no text, no box outline, so nothing else gets engraved.
+- **Checked 2026-10-10** against the v3.0 board (the ordered boards; the working copy is identical): every pot shaft, button centre and LED centre matches the drill CSV.
+
+**Orientation:** the **top edge of the SVG = the jack wall** (the long side with PHONES / LINE / DC), and the **right edge = the USB end**.
+
+**Alignment:**
+- If Bantam places the file by its page, line the page's lower-left corner up with the face's lower-left corner.
+- If it places by the geometry instead, the marks' bounding box starts **26.0 mm from the left edge and 20.0 mm from the bottom edge** of the face (it spans x 26.0–93.5, y 20.0–58.75).
+- Either way, the layout is symmetric about the face centre (POT 2 / BTN 1 are on the centre line). The most reliable zero is **the centre of the face**: X 59.75, Y 47 from the lower-left.
+- The box walls have a slight draft, so the top face measures a little under 119.5 × 94. **Measure your box** and centre on it rather than trusting the corners.
+
+**Check before you start:**
+- The 1590BB is ~34–35 mm tall. The original Othermill's Z clearance is about that much, so **check the box fits under the spindle with the engraving bit** (with the spoilboard / bed setup you use) before running.
+- If it doesn't fit, print the SVG at 100 % instead, tape it on, and centre-punch.
+
 ## Face (side A): taken from the board, ready to order
 
 | Hole | Ø mm | Part |

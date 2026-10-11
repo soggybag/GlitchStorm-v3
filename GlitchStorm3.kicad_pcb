@@ -7227,7 +7227,7 @@
 			(uuid "00234d9f-c420-4106-9012-f9d646a209f7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 0)
+			(at -3.5 1.5 0)
 			(layer "F.Fab")
 			(uuid "c5d20b38-fd00-435c-b157-95302561707a")
 			(effects
@@ -12827,7 +12827,7 @@
 		(descr "Round 12 mm push button, 9 mm cap, 4 pins on 5.00 x 5.00 mm (DAIER TSL-A064, Tayda A-8796; same layout as E-Switch KS01Q01). Pins 1-2 and 3-4 are joined inside, so only the DIAGONAL pads 1 and 2 here are wired: works in any orientation. Origin = body centre")
 		(tags "push button round 12mm tact DAIER TSL-A064 KS01Q01")
 		(property "Reference" "SW1"
-			(at 0 7.6 180)
+			(at 5.5 5.25 180)
 			(layer "B.SilkS")
 			(uuid "1298da70-51e7-4f92-b3aa-c29d66ac05cd")
 			(effects
@@ -14972,9 +14972,22 @@
 		)
 	)
 	(gr_text "BTN 2"
-		(at 139 127.2 0)
+		(at 134.25 131.25 0)
 		(layer "B.SilkS")
 		(uuid "8a2ad1e7-6717-4b8b-9e59-ced17baab740")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "BTN 3"
+		(at 149.25 131.25 0)
+		(layer "B.SilkS")
+		(uuid "d8aee799-cd7d-4286-ab3d-b27e8cf41cb9")
 		(effects
 			(font
 				(size 1 1)
@@ -14998,7 +15011,7 @@
 		)
 	)
 	(gr_text "BTN 1"
-		(at 161 127.2 0)
+		(at 165.5 131 0)
 		(layer "B.SilkS")
 		(uuid "42523732-f786-4d9c-9edf-110b9325f3be")
 		(effects

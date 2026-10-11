@@ -38,3 +38,19 @@ Alpha RD901F 9 mm, T18 knurled shaft (the 3D model on the board). Panel hole **7
   - **Before soldering, check one with a meter:** plug tip → pin 4, plug sleeve → pins 2 and 5. The pin functions come from reading the datasheet diagram, and match KiCad's PJ320E. If yours differs, don't solder it; the footprint needs two pad names swapped.
   - The 2 mm collar sits at the board's back edge. The barrel centre is ~2.8 mm above the board (on the inside face). Drill positions are in `enclosure/` (estimates). **Plug-reach problem:** the jack front is ~6 mm inside the outside of the wall; see `enclosure/README.md`.
 - **J3 DC 9V: Tayda A-4118** (2.1 mm PCB DC jack, flat blade pins; slotted footprint). Centre negative. Check the sleeve blade with a meter (see the Roadmap).
+
+## Measured on the v3.0 build (2026-10-10)
+
+- PCB to the pot body top (inside of the lid): **9.91 mm** (predicted 10.3).
+- A-8796 button: shoulder **8.68 mm**, cap top **14.7 mm**. With a ~2.5–3 mm lid, the cap is ~2 mm proud and the shoulder clears the inside by ~1.2 mm. **The button height is fine;** the earlier "only ~1 mm proud" worry is resolved.
+- PJ-320A: a loose jack's pins may read badly for continuity (oxidised). After soldering, the pinout matched the footprint (tip pin 4, sleeve pins 2 + 5).
+
+## v3.1 change list (from the v3.0 bench test)
+
+- **Buttons: DONE 2026-10-11.** Silkscreen left → right (outside): **BTN 1 · BTN 3 · BTN 2**.
+  - BTN 1 = SW3 → D2; **BTN 3 = SW1 → D3 (centre)**; BTN 2 = SW2 → D4.
+  - **The current firmware uses the centre button (BTN 3, D3) as MODE.** The label stays generic so the button can do other things later. D3 is INT1, so it can still use an interrupt like D2 (INT0).
+  - No wiring change. The test sketch was updated (`BTN_MODE = 3`, `BTN1 = 2`).
+  - Labels sit under each button; DRC 0 errors.
+- Still to decide after drilling: jack plug reach (jacks ~6 mm inside the wall's outer surface) and Nano USB access.
+- Not needed: taller buttons (cap measured ~2 mm proud).

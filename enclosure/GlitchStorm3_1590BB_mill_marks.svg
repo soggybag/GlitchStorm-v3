@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="119.5mm" height="94.0mm" viewBox="0 0 119.5 94.0">
+<circle id="POT_1" cx="29.750" cy="39.000" r="3.750" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="POT_1_centre" cx="29.750" cy="39.000" r="0.5" stroke="#000" stroke-width="0.5"/>
+<circle id="POT_2" cx="59.750" cy="39.000" r="3.750" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="POT_2_centre" cx="59.750" cy="39.000" r="0.5" stroke="#000" stroke-width="0.2"/>
+<circle id="POT_3" cx="89.750" cy="39.000" r="3.750" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="POT_3_centre" cx="89.750" cy="39.000" r="0.5" fill="" stroke="#000" stroke-width="0.2"/>
+<circle id="RATE" cx="29.750" cy="69.000" r="3.750" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="RATE_centre" cx="29.750" cy="69.000" r="0.5" stroke="#000" stroke-width="0.2"/>
+<circle id="VOLUME" cx="89.750" cy="69.000" r="3.750" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="VOLUME_centre" cx="89.750" cy="69.000" r="0.5" fill="" stroke="#000" stroke-width="0.2"/>
+<circle id="MODE" cx="44.750" cy="69.000" r="5.000" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="MODE_centre" cx="44.750" cy="69.000" r="0.5" fill="" stroke="#000" stroke-width="0.2"/>
+<circle id="BTN_1" cx="59.750" cy="69.000" r="5.000" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="BTN_1_centre" cx="59.750" cy="69.000" r="0.5" fill="" stroke="#000" stroke-width="0.2"/>
+<circle id="BTN_2" cx="74.750" cy="69.000" r="5.000" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="BTN_2_centre" cx="74.750" cy="69.000" r="0.5" fill="" stroke="#000" stroke-width="0.2"/>
+<circle id="LED_D1" cx="47.750" cy="55.000" r="1.600" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="LED_D1_centre" cx="47.750" cy="55.000" r="0.5" fill="" stroke="#000" stroke-width="0.2"/>
+<circle id="LED_D2" cx="55.750" cy="55.000" r="1.600" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="LED_D2_centre" cx="55.750" cy="55.000" r="0.5" fill="" stroke="#000" stroke-width="0.2"/>
+<circle id="LED_D3" cx="63.750" cy="55.000" r="1.600" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="LED_D3_centre" cx="63.750" cy="55.000" r="0.5" fill="" stroke="#000" stroke-width="0.2"/>
+<circle id="LED_D4" cx="71.750" cy="55.000" r="1.600" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle id="LED_D4_centre" cx="71.750" cy="55.000" r="0.5" fill="" stroke="#000" stroke-width="0.2"/>
+</svg>

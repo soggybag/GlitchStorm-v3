@@ -241,7 +241,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": "3.0 draft"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -727,7 +727,12 @@
     "used_designators": "D3,R17,R19",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "e631ee6b-6f1c-4b47-a0b1-e4719e337cba",
+      "GlitchStorm3"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
