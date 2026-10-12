@@ -90,7 +90,7 @@ The Nano draws ~20–40 mA, so the 100 Ω trick would starve its regulator. **Us
 | 5.5 | POT1 sweeps the pitch 100 Hz → 2 kHz | | From phones I see about 4V max vol, 0.32mS Square at max freq, 5mS at min freq |
 | 5.6 | Any digital noise (Nano clock whine) at the outputs in MODE 2, VOLUME max | note the level | I detect a small about of what sounds like a digital clicking at high frequencies. |
 
-Then load your synth firmware. Buttons (all `INPUT_PULLUP`): **BTN 1 = D2 (left), BTN 3 = D3 (centre, MODE), BTN 2 = D4 (right)**. The v2 firmware used D3/D4 as its two buttons, so map MODE to D3 and give D2 the old D3 job.
+Then load your synth firmware: **`firmware/GlitchStorm_v3/`** (ported 2026-10-11: BTN 1 up, BTN 3 MODE = restart, BTN 2 down). Buttons (all `INPUT_PULLUP`): **BTN 1 = D2 (left), BTN 3 = D3 (centre, MODE), BTN 2 = D4 (right)**. The v2 firmware used D3/D4 as its two buttons, so map MODE to D3 and give D2 the old D3 job.
 
 **Sections 4–5 notes (2026-10-11):**
 - 4.1 pots: 0–1023, **CW = up** ✓. 4.4 RATE: CW = slower chase. That's just the test sketch's mapping (a bigger reading gives a longer delay), not a wiring fault ✓. 4.5 all LEDs ✓.
@@ -121,6 +121,12 @@ Then load your synth firmware. Buttons (all `INPUT_PULLUP`): **BTN 1 = D2 (left)
   - the centre button (SW1, D3 = **BTN 1**) has no label;
   - the right button (SW2, D4 = BTN 2) is labelled correctly.
   - **Decided 2026-10-11:** silkscreen **BTN 1 · BTN 3 · BTN 2** (left → right). The **centre button (BTN 3, D3) is MODE** in the current firmware and the test sketch (re-flash `GS3_HWTest.ino`). BTN 1 (left, D2) lights LED 1; BTN 2 (right, D4) lights LED 2.
+
+**Synth firmware (2026-10-11):** `firmware/GlitchStorm_v3/` runs on the board.
+- Two firmware bugs were found and fixed on the bench:
+  1. Buttons missed at high RATE (polling while the audio ISR was busy) → pin-change interrupt.
+  2. Programs 2–9 froze the controls at mid/high RATE (ISR overrun) → per-equation CPU guard in the ISR.
+- Now all 16 programs step at any RATE ✓.
 
 ## 6. Enclosure (the open issues from ordering)
 
